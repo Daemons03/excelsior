@@ -1,0 +1,137 @@
+/* CSS générale à toutes les pages du sites*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+html{
+	width: 100%;
+	color: #000;
+	background-color: black;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+body{
+	width: 60%;
+	margin: auto;
+	padding-top: 1%;
+	padding-right: 5%;
+	padding-left: 5%;
+	background: url(../img/fond.jpg);
+	background-repeat: repeat;
+}
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+	color: #3271b7;
+}
+header{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+header form{
+	margin-top: 3%;
+}
+.disparait{
+	display: none;
+}
+#nav1{
+	display: block;
+	width: 60%;
+	background-color: #464646;
+	color: white;
+	position: fixed;
+	z-index: 5;
+	border-radius: 10px;
+}
+#nav1 ul{
+	width: 80%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	list-style-type: none;
+	margin: auto;
+	margin-top: 1%;
+	border-radius: 20% 20% 20% 20%;
+	padding-bottom: 1%;
+}
+#nav1 a{
+	color: white;
+}
+#nav2{
+	display: none;
+}
+footer{
+	margin-top: 10%;
+	text-align: center;
+}
+section{
+	text-align: justify;
+}
+							/* Page d'accueil*/
+/* partie section */
+section img{
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding-right: 3%;
+	padding-bottom: 1%;
+}
+#preExcelsior article{
+	width: 40%;
+	display: inline-block;
+	margin-left: 5%;
+}
+#preNutrition article{
+	width: 30%;
+	display: inline-block;
+	margin-left: 3%;
+}
+#preMeditation article{
+	width: 40%;
+	display: inline-block;
+	margin-left: 5%;
+}
+#preMusculation article{
+	width: 30%;
+	display: inline-block;
+	margin-left: 3%;
+}
+#preCoach article{
+	width: 30%;
+	display: inline-block;
+	margin-left: 3%;
+}
+#information{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	text-align: justify;
+}
+#apropos1{
+	width: 60%;
+}
+#plusinfor{
+	width: 40%;
+}
+#plusinfor li{
+	padding-left: 10%;
+}
+/* partie contact */
+#infocontact{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 2%;
+}
+#infocontact span{
+	font-weight: bold;
+}
+#infocontact2{
+	width: 60%;
+}
+#formaccueil{
+	width: 40%;
+}
+					/*Fin de l'accueil */ 
